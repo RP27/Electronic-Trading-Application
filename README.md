@@ -3,8 +3,8 @@
 ### Database Info
 
 - Install MariaDB from [this location](https://mariadb.org/download/).
-- During install, take note of the port MariaDB listens to. Also make sure you remember the password you use for the root user.
-- Hopefully the dependencies should already be present for Java to talk to MariaDB. If not, go to `File -> Project Structure` click `Libraries` click the plus icon and search for `org.mariadb.jdbc:mariadb` and choose the most recent stable build.
+- Take note of the port MariaDB listens to during the installing. 
+- The dependencies should already be present for Java to talk to MariaDB. If not, go to `File -> Project Structure` click `Libraries` click the plus icon and search for `org.mariadb.jdbc:mariadb` and choose the most recent stable build.
 - Add the required details to the dbserver.props file (port, username and password)
 
 ### Running the Server and Client
